@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+.h-container{
+  background: #1A9364;
+  height: 100vh;
+  width: 100%;
+}
+
+.h-circle{
+  display: flex;
+  justify-content: center;
+}
+.circle{
+  height: 40vh;
+  width: 40vh;
+  background: #FFFBDB;
+  border-radius: 50%;
+  border: 15rpx solid #FFED97;
+
+  position: fixed;
+  top: 25vh;
+}
+
+.square{
+  height: 10vh;
+  width: 50%;
+  background: #B8DECD;
+  border-radius: 0 30rpx 30rpx 0;
+
+  position: fixed;
+  bottom: 18vh;
+}
+
+.s-text{
+  color: #6CA0CD;
+  height: 100%;
+  /* font-size: 40rpx; */
+  margin-left: 10rpx;
+  
+  display: flex;
+  align-items: center;
+}
