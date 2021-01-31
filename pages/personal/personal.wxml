@@ -1,0 +1,11 @@
+<!--pages/personal/personal.wxml-->
+<view class="container">
+  <view class="p-container">
+    <view class="avd-circle"></view>
+    <view class="p-in-bg">
+      <view class="in-items">
+        <text>hhh</text>
+      </view>
+    </view>
+  </view>
+</view>

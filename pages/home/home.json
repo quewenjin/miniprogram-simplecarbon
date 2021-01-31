@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "s-circle": "../../components/circle/circle"
+  },
   "enablePullDownRefresh": false,
   "disableScroll": true
 }

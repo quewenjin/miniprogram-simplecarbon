@@ -1,0 +1,7 @@
+<!--components/circle/circle.wxml-->
+<view class="s-circle">
+  <view class="in-circle">
+    <text class="text-type">{{types}}</text>
+    <text class="text-score">{{score}}</text>
+  </view>
+</view>

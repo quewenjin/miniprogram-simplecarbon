@@ -1,6 +1,6 @@
 /* pages/home/home.wxss */
 .h-container{
-  background: #1A9364;
+  background: #1A9264;
   height: 100vh;
   width: 100%;
 }
@@ -10,32 +10,55 @@
   justify-content: center;
 }
 .circle{
-  height: 40vh;
-  width: 40vh;
-  background: #FFFBDB;
+  height: 45vh;
+  width: 45vh;
   border-radius: 50%;
-  border: 15rpx solid #FFED97;
+  background: #FEFADA;
+  border: 15px solid #FFDA45;
+  box-sizing: border-box;
 
   position: fixed;
-  top: 25vh;
+  top: 20vh;
 }
 
 .square{
   height: 10vh;
   width: 50%;
-  background: #B8DECD;
-  border-radius: 0 30rpx 30rpx 0;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 0rpx 20rpx 20rpx 0rpx;
 
   position: fixed;
   bottom: 18vh;
 }
 
 .s-text{
-  color: #6CA0CD;
   height: 100%;
-  /* font-size: 40rpx; */
+  color: #0469BC;
   margin-left: 10rpx;
-  
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40rpx;
+
   display: flex;
   align-items: center;
+}
+
+.chgbtn{
+  height: 60rpx;
+  width: 120rpx;
+  background: #1A9264;
+  border-radius: 40rpx;
+  margin: 40rpx;
+
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rpx;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60rpx;
+  white-space: nowrap;
+  letter-spacing: 10rpx;
+  color: #FFFFFF;
 }
