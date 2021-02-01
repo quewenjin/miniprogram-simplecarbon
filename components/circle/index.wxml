@@ -1,4 +1,4 @@
-<!--components/circle/circle.wxml-->
+<!--components/circle/index.wxml-->
 <view class="s-circle">
   <view class="in-circle">
     <text class="text-type">{{types}}</text>

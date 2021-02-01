@@ -1,0 +1,5 @@
+<!--components/button/index.wxml-->
+<view class="squ-con {{disabled ? 'i-btn-disabled' : ''}}" bindtap="handleTap" hover-start-time="{{hoverStartTime}}" hover-stay-time="{{hoverStayTime}}" hover-class="i-btn-hover">
+  <image class="img" src="{{imgpath}}"></image>
+  <slot></slot>
+</view>

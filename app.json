@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/personal/personal",
-    "pages/home/home",
+    "pages/home/index",
+    "pages/task/index",
+    "pages/personal/index",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -10,6 +11,31 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "assets/tabimgs/homeing.png",
+        "iconPath": "assets/tabimgs/home.png",
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "assets/tabimgs/clocking.png",
+        "iconPath": "assets/tabimgs/clock.png",
+        "pagePath": "pages/task/index",
+        "text": "任务"
+      },
+      {
+        "selectedIconPath": "assets/tabimgs/usering.png",
+        "iconPath": "assets/tabimgs/user.png",
+        "pagePath": "pages/personal/index",
+        "text": "测试"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

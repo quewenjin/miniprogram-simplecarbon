@@ -1,7 +1,8 @@
 {
   "usingComponents": {
-    "s-circle": "../../components/circle/circle"
+    "s-circle": "../../components/circle"
   },
+  "navigationBarTitleText": "主页",
   "enablePullDownRefresh": false,
   "disableScroll": true
 }
