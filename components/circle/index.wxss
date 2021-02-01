@@ -1,4 +1,4 @@
-/* components/circle/circle.wxss */
+/* components/circle/index.wxss */
 .s-circle{
   width: 100rpx;
   height: 100rpx;

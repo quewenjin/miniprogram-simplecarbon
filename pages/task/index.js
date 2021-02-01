@@ -1,4 +1,4 @@
-// pages/personal/personal.js
+// pages/task/index.js
 Page({
 
   /**
