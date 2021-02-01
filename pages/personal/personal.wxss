@@ -1,0 +1,42 @@
+/* pages/personal/personal.wxss */
+.p-container{
+  background: #1A9264;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.p-in-bg{
+  height: 200vh;
+  width: 135vh;
+  position: fixed;
+  top: 25vh;
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.avd-circle{
+  height: 18vh;
+  width: 18vh;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 5px solid #1A9264;
+  box-sizing: border-box;
+
+  position: fixed;
+  top: 16vh;
+  z-index: 1000;
+}
+
+.in-items{
+  width: 100vw;
+
+  position: fixed;
+  top: 34vh;
+  color: red;
+}

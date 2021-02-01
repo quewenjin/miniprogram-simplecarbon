@@ -1,6 +1,7 @@
 <!--pages/home/home.wxml-->
 <view class="container">
   <view class="h-container">
+    <s-circle types="步行" score="+3"></s-circle>
     <view class="h-circle">
       <view class="circle"></view>
     </view>
@@ -8,7 +9,8 @@
       <view class="square">
         <view class="s-text">
           <text>积分：51</text>
-          <button bindtap="goToIndex">兑换</button>
+          <!-- <button bindtap="goToIndex">兑换</button> -->
+          <view class="chgbtn">兑换</view>
         </view>
         
       </view>
