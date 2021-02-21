@@ -1,0 +1,19 @@
+<!--components/circles/index.wxml-->
+<view>
+  <van-circle
+    value="{{ 30 }}"
+    layer-color="#C4C4C4"
+    color="#FDD73F"
+    stroke-width="15"
+    size="200"
+    fill="#1A9264"
+  >
+    <view class="conInCircle">
+      <view>
+        <image class="img" src="../../assets/task/sports.svg"></image>
+        <view class="numCon">5000</view>
+      </view>
+      <view class="nameCon">步行</view>
+    </view>
+  </van-circle>
+</view>

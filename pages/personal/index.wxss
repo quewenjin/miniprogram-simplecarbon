@@ -78,6 +78,9 @@
   font-size: 100rpx;
   font-weight: 100;
   overflow: hidden;
+  vertical-align: middle;
+  line-height: 100%;
+
 }
 
 .info-box-text{

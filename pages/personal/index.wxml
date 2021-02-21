@@ -17,13 +17,13 @@
           <view class="border">|</view>
           <view class="info-box-text">
             <view>26</view>
-            <view>我的等级</view>
+            <view>待领取积分</view>
           </view>
         </view>
         <view class="set-btn">
           <s-button imgpath="../../assets/personal/edit.svg">个人资料</s-button>
           <s-button imgpath="../../assets/personal/document.svg">交易记录</s-button>
-          <s-button imgpath="../../assets/personal/setting.svg">账号设置</s-button>
+          <s-button imgpath="../../assets/personal/setting.svg">积分商城</s-button>
         </view>
       </view>
     </view>

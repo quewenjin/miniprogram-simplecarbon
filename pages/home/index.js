@@ -8,9 +8,9 @@ Page({
 
   },
 
-  goToIndex() {
+  goToMall() {
     wx.navigateTo({
-      url: '../index/index',
+      url: '../mall/index',
     })
   },
   /**
