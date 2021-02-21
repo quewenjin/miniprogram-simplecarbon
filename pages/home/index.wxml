@@ -9,8 +9,8 @@
       <view class="square">
         <view class="s-text">
           <text>积分：51</text>
-          <!-- <button bindtap="goToIndex">兑换</button> -->
-          <view class="chgbtn">兑换</view>
+          <!-- <button bindtap="goToMall">兑换</button> -->
+          <view class="chgbtn" bindtap="goToMall">兑换</view>
         </view>
         
       </view>

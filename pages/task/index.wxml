@@ -1,2 +1,41 @@
 <!--pages/task/index.wxml-->
-<text>pages/task/index.wxml</text>
+<view class="container">
+  <view style="width: 100%">
+    <van-tabs active="{{ active }}" bind:change="onChange" color="#1A9264">
+      <van-tab title="随机棋盘">
+        <text>随机棋盘</text>
+      </van-tab>
+      <van-tab title="基本任务">
+        <view class="content2">
+          <view>基本任务</view>
+          <!-- <s-clock></s-clock> -->
+          <view>
+            <van-circle value="{{ 30 }}" layer-color="#C4C4C4" color="#FDD73F" stroke-width="15" size="200"
+              fill="#1A9264">
+              <view class="conInCircle">
+                <view>
+                  <image class="img" src="../../assets/task/sports.svg"></image>
+                  <view class="numCon">5000</view>
+                </view>
+                <view class="nameCon">步 行</view>
+              </view>
+            </van-circle>
+          </view>
+          <view>
+            <van-circle value="{{ 30 }}" layer-color="#C4C4C4" color="#FDD73F" stroke-width="15" size="200"
+              fill="#1A9264">
+              <view class="conInCircle">
+                <view>
+                  <image class="img" src="../../assets/task/help.svg"></image>
+                  <view class="numCon">3000</view>
+                </view>
+                <view class="nameCon">答 题</view>
+              </view>
+            </van-circle>
+          </view>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+
+</view>
