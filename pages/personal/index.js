@@ -57,6 +57,11 @@ Page({
       hasUserInfo: true
     })
   },
+  goToInfo() {
+    wx.navigateTo({
+      url: '../perInfo/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

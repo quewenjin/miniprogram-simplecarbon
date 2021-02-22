@@ -1,0 +1,17 @@
+<!--pages/perInfo/index.wxml-->
+<view class="container">
+  <view class="i-container">
+    <view class="traCon">
+      <view class="arrowLeft" bindtap="goBack">
+        <van-icon name="arrow-left" color="#fff" size="50rpx"/>
+      </view>
+      <view class="pTitle">个人资料</view>
+    </view>
+    <view class="grad">
+      <van-cell-group>
+        <van-cell title="昵称" size="large" center is-link value="Chris" bind:click="editNick"/>
+        <van-cell title="账号" size="large" center is-link value="12345678" bind:click="editNick"/>
+      </van-cell-group>
+    </view>
+  </view>
+</view>

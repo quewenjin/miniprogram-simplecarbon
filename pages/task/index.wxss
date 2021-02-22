@@ -49,4 +49,5 @@
   height: 600rpx;
   background: #E0E0E0;
   margin: 40rpx;
+  border-radius: 20rpx;
 }
