@@ -27,7 +27,7 @@
 
 .i-btn-hover{
   /* background: #1A9264; */
-  background: rgba(26, 146, 100, 0.8);
+  background: rgba(87, 204, 159, 0.8);
   color: #fff;
   opacity: 0.9;
 }

@@ -1,9 +1,14 @@
 /* pages/task/index.wxss */
 .content2{
+  margin: 10rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.cirbox{
+  margin: 45rpx;
 }
 
 .conInCircle{
@@ -37,4 +42,11 @@
   letter-spacing: 0.1em;
 
   color: #FFFFFF;
+}
+
+.pando{
+  width: 600rpx;
+  height: 600rpx;
+  background: #E0E0E0;
+  margin: 40rpx;
 }

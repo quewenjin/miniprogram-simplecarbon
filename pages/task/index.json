@@ -3,7 +3,8 @@
     "van-tab": "../../miniprogram_npm/vant-weapp/tab/index",
     "van-tabs": "../../miniprogram_npm/vant-weapp/tabs/index",
     "van-circle": "@vant/weapp/circle/index",
-    "s-clock": "../../components/clock/index"
+    "s-clock": "../../components/clock/index",
+    "van-button": "@vant/weapp/button/index"
   },
   "navigationBarTitleText": "任务"
 }
