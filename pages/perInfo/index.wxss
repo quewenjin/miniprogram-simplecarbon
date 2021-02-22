@@ -1,0 +1,37 @@
+/* pages/perInfo/index.wxss */
+.i-container{
+  width: 100%;
+}
+
+.traCon{
+  height: 100rpx;
+  width: 100%;
+  background: rgba(26, 146, 100, 0.1);
+
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.arrowLeft{
+  width: 80rpx;
+  height: 100%;
+  background: #1A9264;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pTitle{
+  font-family: Noto Sans SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36rpx;
+  line-height: 80rpx;
+  /* or 222% */
+  letter-spacing: 0.1em;
+  /* Gray 2 */
+  color: #4F4F4F;
+  margin-left: 30rpx;
+}

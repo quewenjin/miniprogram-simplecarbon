@@ -21,7 +21,7 @@
           </view>
         </view>
         <view class="set-btn">
-          <s-button imgpath="../../assets/personal/edit.svg">个人资料</s-button>
+          <s-button imgpath="../../assets/personal/edit.svg" bind:click="goToInfo">个人资料</s-button>
           <s-button imgpath="../../assets/personal/document.svg">交易记录</s-button>
           <s-button imgpath="../../assets/personal/setting.svg">积分商城</s-button>
         </view>
