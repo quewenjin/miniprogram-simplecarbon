@@ -1,0 +1,37 @@
+<!--pages/questions/index.wxml-->
+<view class="container">
+  <view class="q-container">
+    <view class="ques-container">
+      <!-- <view wx:if="{{ifBegin == false}}" class="unBegin">
+        <view>绿 色 知 识 答 题</view>
+        <image src="../../assets/personal/help_large.svg"></image>
+        <view class="ques-btn" bindtap="getQuestion">开 始 答 题</view>
+      </view> -->
+      <!-- <view wx:else> -->
+        <view class="que-title">{{currented+1}}/5 单选题</view>
+        <swiper bindchange="refelsh" class="introduce" indicator-dots="{{false}}" current="{{currented}}" indicator-color="rgba(0,0,0,0.1)" indicator-active-color="red">
+          <swiper-item>
+          111
+          </swiper-item>
+          <swiper-item>
+          222
+          </swiper-item>
+          <swiper-item>
+          333
+          </swiper-item>
+          <swiper-item>
+            444
+          </swiper-item>
+          <swiper-item>
+            555
+          </swiper-item>
+        </swiper>
+        <view class="bottonbtn">
+          <van-button plain type="primary" custom-style="border-radius: 20rpx;" bind:click="preQue" disabled="{{currented==0}}">上 一 题</van-button>
+          <van-button plain type="danger" custom-style="border-radius: 20rpx;">结束答题</van-button>
+          <van-button plain type="primary" custom-style="border-radius: 20rpx;" bind:click="nextQue" disabled="{{currented==4}}">下 一 题</van-button>
+        </view>
+      <!-- </view> -->
+    </view>
+  </view>
+</view>

@@ -14,6 +14,13 @@ Page({
   },
   editNick() {
     console.log('修改')
+    wx.getWeRunData({
+      success (res) {
+        // 拿 encryptedData 到开发者后台解密开放数据
+        const encryptedData = res.encryptedData
+        console.log(res)
+      }
+    })
   },
   /**
    * 生命周期函数--监听页面加载

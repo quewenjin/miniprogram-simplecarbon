@@ -1,0 +1,57 @@
+/* pages/questions/index.wxss */
+.q-container{
+  background: #1A9264;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ques-container {
+  width: 87.5%;
+  height: 83%;
+  background: #FFFFFF;
+  border-radius: 40rpx;
+}
+
+.unBegin {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ques-btn{
+  width: 400rpx;
+  height: 130rpx;
+  background: #1A9264;
+  border-radius: 20rpx;
+  font-size: 60rpx;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.que-title{
+  line-height: 60rpx;
+  margin: 40rpx;
+  color: #4F4F4F;
+}
+
+.introduce {
+  height: 70%;
+  width: 100%;
+}
+
+.bottonbtn {
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
