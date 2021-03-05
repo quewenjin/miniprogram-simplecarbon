@@ -2,12 +2,14 @@
 <view class="container">
   <view class="p-container">
     <view class="avd-circle">
-      <image mode="cover" class="adv-img" src="{{userInfo.avatarUrl}}" />
+      <!-- <image mode="cover" class="adv-img" src="{{userInfo.avatarUrl}}" /> -->
+        <open-data type="userAvatarUrl"></open-data>
     </view>
     <view class="p-in-bg">
       <view class="in-items">
         <view class="username">
-          <text>{{userInfo.nickName}}</text>
+          <!-- <text>{{userInfo.nickName}}</text> -->
+          <open-data type="userNickName"></open-data>
         </view>
         <view class="info-box">
           <view class="info-box-text">
@@ -24,6 +26,7 @@
           <s-button imgpath="../../assets/personal/edit.svg" bind:click="goToInfo">个人资料</s-button>
           <s-button imgpath="../../assets/personal/document.svg">交易记录</s-button>
           <s-button imgpath="../../assets/personal/setting.svg">积分商城</s-button>
+          <s-button imgpath="../../assets/personal/help.svg" bind:click="goToQues">答题系统</s-button>
         </view>
       </view>
     </view>
