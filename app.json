@@ -1,13 +1,14 @@
 {
   "pages": [
+    "pages/questions/index",
     "pages/home/index",
     "pages/task/index",
     "pages/personal/index",
     "pages/index/index",
     "pages/logs/logs",
     "pages/mall/index",
-    "pages/perInfo/index",
-    "pages/questions/index"
+    "pages/perInfo/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

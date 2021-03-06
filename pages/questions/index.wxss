@@ -55,3 +55,14 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.text-box {
+  width: 90%;
+  color: #000000;
+  font-size: 35rpx;
+  line-height: 60rpx;
+  margin: 40rpx;
+  display: flex;
+  /* justify-content: center; */
+  justify-self: center;
+}
