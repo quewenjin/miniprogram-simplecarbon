@@ -6,6 +6,8 @@
   border-radius: 50%;
   border: 10rpx solid rgba(74, 152, 247, 0.23);
   box-sizing: border-box;
+  margin: 20rpx;
+  /* animation: updown 3s ease-in-out infinite; */
 }
 
 .in-circle{
@@ -22,3 +24,15 @@
   justify-content: center;
   color: #0469BC;
 }
+
+/* @keyframes updown {
+  0% {
+    transform: translateY(0rpx);
+  }
+  50% {
+    transform: translateY(30rpx);
+  }
+  100% {
+    transform: translateY(0rpx);
+  }
+} */

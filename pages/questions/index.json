@@ -2,5 +2,6 @@
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
     "checkbtn": "../../components/checkbtn/index"
-  }
+  },
+  "navigationBarTitleText": "绿色答题"
 }

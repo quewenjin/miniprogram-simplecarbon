@@ -27,7 +27,7 @@
   background: #FFFFFF;
   border: 10rpx solid #1A9264;
   box-sizing: border-box;
-
+  overflow: hidden;
   position: fixed;
   top: 16vh;
   z-index: 1000;
