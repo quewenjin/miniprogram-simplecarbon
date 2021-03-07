@@ -24,9 +24,9 @@
         </view>
         <view class="set-btn">
           <s-button imgpath="../../assets/personal/edit.svg" bind:click="goToInfo">个人资料</s-button>
-          <s-button imgpath="../../assets/personal/document.svg">交易记录</s-button>
-          <s-button imgpath="../../assets/personal/setting.svg">积分商城</s-button>
-          <s-button imgpath="../../assets/personal/help.svg" bind:click="goToQues">答题系统</s-button>
+          <s-button imgpath="../../assets/personal/document.svg" bind:click="goToShopRecord">交易记录</s-button>
+          <s-button imgpath="../../assets/personal/setting.svg" bind:click="goToMall">积分商城</s-button>
+          <s-button imgpath="../../assets/personal/help.svg" bind:click="goToQues">绿色答题</s-button>
         </view>
       </view>
     </view>

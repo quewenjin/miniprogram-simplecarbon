@@ -1,14 +1,29 @@
 <!--pages/home/home.wxml-->
 <view class="container">
   <view class="h-container">
-    <s-circle types="步行" score="+3"></s-circle>
-    <view class="h-circle">
-      <view class="circle"></view>
+    <view bindtap="clickUp" >
+      <view class="bubble-box1 {{show ? 'cfade' : ''}}">
+        <s-circle types="步行" score="+3"></s-circle>
+      </view>
+      <view class="bubble-box2 {{show ? 'cfade2' : ''}}">
+        <s-circle types="答题" score="+5"></s-circle>
+      </view>
+      <view class="bubble-box3 {{show ? 'cfade3' : ''}}">
+        <s-circle types="答题" score="+10"></s-circle>
+      </view>
     </view>
+    
+    <view bindtap="clickUp">
+      <view class="digite">198分</view>
+      <view class="circle">
+        <view class="wave"></view>
+      </view>
+    </view>
+    
     <view>
       <view class="square">
         <view class="s-text">
-          <text>积分：51</text>
+          <text>积分：198</text>
           <!-- <button bindtap="goToMall">兑换</button> -->
           <view class="chgbtn" bindtap="goToMall">兑换</view>
         </view>

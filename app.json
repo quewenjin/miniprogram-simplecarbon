@@ -7,7 +7,8 @@
     "pages/logs/logs",
     "pages/mall/index",
     "pages/perInfo/index",
-    "pages/questions/index"
+    "pages/questions/index",
+    "pages/shoprecord/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,8 +28,8 @@
         "text": "首页"
       },
       {
-        "selectedIconPath": "assets/tabimgs/clocking.png",
-        "iconPath": "assets/tabimgs/clock.png",
+        "selectedIconPath": "assets/tabimgs/task_checked.png",
+        "iconPath": "assets/tabimgs/task.png",
         "pagePath": "pages/task/index",
         "text": "任务"
       },

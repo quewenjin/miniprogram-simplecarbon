@@ -1,0 +1,25 @@
+/* components/checkbtn/index.wxss */
+.checkbox-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-box {
+  /* width: 490rpx; */
+  width: 80%;
+  min-height: 70rpx;
+  background: #FFFFFF;
+  box-shadow: 2rpx 2rpx 2rpx rgba(0, 0, 0, 0.1), -2rpx -2rpx 2rpx rgba(0, 0, 0, 0.25);
+  border-radius: 20rpx;
+  padding: 10rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.btn-box-checked {
+  background: #1A9264;
+  color: #FFFFFF;
+}

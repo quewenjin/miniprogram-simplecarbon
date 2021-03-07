@@ -52,6 +52,16 @@ Page({
       url: '../perInfo/index'
     })
   },
+  goToMall() {
+    wx.navigateTo({
+      url: '../mall/index',
+    })
+  },
+  goToShopRecord() {
+    wx.navigateTo({
+      url: '../shoprecord/index',
+    })
+  },
   goToQues() {
     wx.navigateTo({
       url: '../questions/index'

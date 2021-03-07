@@ -9,9 +9,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    show: false
   },
-
+  clickUp() {
+    console.log("隐藏")
+    this.setData({
+      show: true
+    })
+  },
   goToMall() {
     wx.navigateTo({
       url: '../mall/index',

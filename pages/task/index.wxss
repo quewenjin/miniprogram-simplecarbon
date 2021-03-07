@@ -8,12 +8,20 @@
 }
 
 .cirbox{
+   width: 200px;
+  height: 200px;
   margin: 45rpx;
+  background: #1A9264;
+  border-radius: 50%;
 }
 
 .conInCircle{
   width: 100%;
   height: 100%;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* background: #1A9264; */
+  /* border-radius: 50%; */
 }
 
 .img {
