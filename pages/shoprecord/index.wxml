@@ -1,2 +1,28 @@
 <!--pages/shoprecord/index.wxml-->
-<text>pages/shoprecord/index.wxml</text>
+<view class="container">
+  <view class="i-container">
+    <view class="traCon">
+      <view class="arrowLeft" bindtap="goBack">
+        <van-icon name="arrow-left" color="#fff" size="50rpx"/>
+      </view>
+      <view class="pTitle">交易记录</view>
+    </view>
+    <view class="grad">
+      <van-panel title="2021年3月" desc="获得30积分 支出15积分" status="">
+        <van-cell-group>
+          <van-cell title="达成随机任务" size="large" center value="+3" label="1月1日 12：12" value-class="label-box">
+            <van-icon slot="icon" size="50rpx" name="chat-o" color="#ee0a24" />
+          </van-cell>
+          <van-cell title="达成随机任务" size="large" center value="+3" label="1月1日 12：12">
+            <van-icon slot="icon" size="50rpx" name="chat-o" color="#ee0a24" />
+          </van-cell>
+          <van-cell title="达成随机任务" size="large" center value="+3" label="1月1日 12：12">
+            <van-icon slot="icon" size="50rpx" name="chat-o" color="#ee0a24" />
+          </van-cell>
+          <van-cell title="账号" size="large" center value="12345678" label="描述信息"/>
+        </van-cell-group>
+      </van-panel>
+    </view>
+  </view>
+</view>
+
